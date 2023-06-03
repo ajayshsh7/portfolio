@@ -1,0 +1,87 @@
+.contact{
+    background-color: #024240;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border-radius: .4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.contact h1{
+    color: #f6f6f6;
+    padding-bottom: 2rem;
+}
+.form input, textarea{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 50rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+.mainbtn{
+    color: #024240;
+    margin-top: 4rem;
+}
+input, textarea{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+input::placeholder{
+    padding-left: .4rem;
+    color: #024240;
+    opacity: 80%;
+}
+textarea::placeholder{
+    padding-left: .4rem;
+    color: #024240;
+    opacity: 80%;
+}
+.social{
+    margin-top: 6rem;
+    color: #f6f6f6;
+}
+.social p{
+    line-height: 114%;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+    color: #f6f6f6;
+}
+.socialH{
+    padding-bottom: 1.25rem;
+}
+.links{
+    display: inline;
+    padding-right: 1rem;
+}
+.linkedin{
+    fill: #f6f6f6;
+    /* stroke: #00A0DC; */
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+.insta{
+    fill: black;
+    /* stroke: #FD1D1D; */
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.insta:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 760px){
+    .contact{
+        padding-top: 1rem;
+        margin-top: 0;
+    }
+}

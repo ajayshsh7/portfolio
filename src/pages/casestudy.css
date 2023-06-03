@@ -1,0 +1,54 @@
+.casestudy{
+    max-width: 1590px;
+    margin-inline: auto;
+}
+.casestudy_content{
+    /* padding-top: 2rem; */
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    background-color: #f6f6f6;
+    padding-bottom: 4rem;
+}
+.homebtn{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #024240;
+    color: #f6f6f6;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-left: 12.4rem;
+    padding-right: 12.4rem;
+    margin-bottom: 4rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 2px 2px #fbbd06;
+    cursor: pointer;
+    transition: transform 1000ms;
+}
+.homebtn:hover{
+    transform: translateY(-.75rem);
+    transition: transform 250ms;
+}
+.casestudy p{
+    /* line-height: normal; */
+    max-width: 40rem;
+    /* padding-bottom: 4rem; */
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 760px){
+    .homebtn{
+        width: 9rem;
+        font-size: .875rem;
+        padding-left: .4rem;
+        padding-right: .4rem;
+    }
+    .casestudy_content{
+        padding-bottom: 2rem;
+    }
+}
