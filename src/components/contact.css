@@ -65,7 +65,7 @@ textarea::placeholder{
 }
 .insta{
     fill: #f6f6f6;
-    fill: black;
+    fill: #f6f6f6;
     /* stroke: #FD1D1D; */
     height: 30px;
     width: 30px;
