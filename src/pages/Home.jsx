@@ -54,7 +54,7 @@ const Home = () => {
         <div className="whyme">
           <div className="whyme-text firstT">
             <h2 className="whymeH2">Not just a web designer</h2>
-            <p>The secondry skills would complement all of our projects. <br /> I keep in mind SEO, Mobile responsiveness, Quality copywriting, Digital marketing and much more. </p>
+            <p>The secondry skills would complement all of our projects. <br /> I keep in mind SEO, Mobile responsiveness, Quality copywriting, Digital marketing, A/B testing, brand strategy and much more. </p>
           </div>
           <div className="circle firstC">
             <svg className="num" width="243" height="243" viewBox="0 0 243 243" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,8 +65,8 @@ const Home = () => {
         </div>
         <div className="whyme">
           <div className="whyme-text secT">
-            <h2 className="whymeH2">Blend of simplicity and creativity</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil non possimus eaque dolore eveniet cumque vero cum placeat obcaecati saepe quibusdam, nesciunt, quod autem accusantium culpa doloribus. Harum, suscipit similique.</p>
+            <h2 className="whymeH2">Going beyond design</h2>
+            <p>After the final delivery of the project you can test your design through any method.<br />I will try my to provide whatever can i to improve the design and give feedback about what exactly you will need to fix the issue.</p>
           </div>
           <div className="circle secC">
             <svg className="num" width="243" height="243" viewBox="0 0 243 243" fill="none" xmlns="http://www.w3.org/2000/svg">

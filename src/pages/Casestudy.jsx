@@ -9,7 +9,8 @@ const Casestudy = () => {
       <div className="casestudy_content">
       <NavLink to = "/"><button className="homebtn">Back to Home</button></NavLink>
       <h1>Get a free case study for your <span className="span">website</span></h1>
-      <p>We will discover the root problems with the current design of your website through a short meeting. <br /><br /> And find the solution, to those problems and deliver it to you so you can implement those changes in your design.</p>
+      <p>We will discover the root problems with the current design of your website through a short meeting. </p>
+      <p> I will try try my best to provide solution those problems and deliver it to you so you can implement those changes in your design.</p>
       </div>
       <Contact />
       <footer className='footer'>
