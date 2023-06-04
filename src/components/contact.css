@@ -64,6 +64,7 @@ textarea::placeholder{
     padding-top: 1rem;
 }
 .insta{
+    fill: #f6f6f6;
     fill: black;
     /* stroke: #FD1D1D; */
     height: 30px;
