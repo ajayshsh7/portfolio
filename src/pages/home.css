@@ -27,9 +27,13 @@ p{
 }
 .heroH{
     padding-top: 9.375rem;
-    /* padding-left: 1.4rem; */
     padding-right: 1.4rem;
     color: #f6f6f6;
+}
+.heroP{
+    color: #f6f6f6;
+    max-width: 40rem;
+    padding-right: 1.4rem;
 }
 .maincontent {
     max-width: 100%;
@@ -104,8 +108,6 @@ p{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 8rem;
-    /* gap: 8rem; */
-    /* gap: 18rem; */
 }
 .whymeH{
     color: #024240;
@@ -113,34 +115,28 @@ p{
 }
 .firstT{
     color: #024240;
-    /* min-width: 400px; */
     flex: 1;
     order: 1;
 }
 .firstC{
-    /* min-width: 400px; */
     flex: 1;
     order: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     animation: growShrinkAnimation 4s infinite;
 }
 .secT{
     color: #024240;
-    /* min-width: 400px; */
     flex: 1;
     order: 2;
 }
 .secC{
-    /* min-width: 400px; */
     flex: 1;
     order: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     animation: growShrinkAnimation 4s infinite;
 }
 @keyframes growShrinkAnimation {
@@ -245,6 +241,10 @@ p{
     .heroH{
         padding: 0;
         padding-top: 2rem;
+    }
+    .heroP{
+        color: #f6f6f6;
+        max-width: 30rem;
     }
     .mainbtn{
         width: 100%;

@@ -16,8 +16,9 @@ const Home = () => {
           <img src={myimg} alt="" className="img" />
           <div className="content">
             <h1 className="heroH">
-              I am Freelance Web <span className='span'>UI/UX designer</span> and Web Developer
+              Growing Businesses Through <span className="span">Web Design (UI/UX)</span>
             </h1>
+            <p className='heroP'>I am a strategic web UI/UX designer and web developer focused on driving business growth</p>
             <NavLink to = "/contactpage"><button className="mainbtn">Discuss Project</button></NavLink>
             <NavLink to = "/casestudy"><button className="secbtn">Free Case Study</button></NavLink>
           </div>
