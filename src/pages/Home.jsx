@@ -16,7 +16,7 @@ const Home = () => {
           <img src={myimg} alt="" className="img" />
           <div className="content">
             <h1 className="heroH">
-              Growing Businesses Through <span className="span">Web Design (UI/UX)</span>
+              Helping Business Grow Through <span className="span">Web Design (UI/UX)</span>
             </h1>
             <p className='heroP'>I am a strategic web UI/UX designer and web developer focused on driving business growth</p>
             <NavLink to = "/contactpage"><button className="mainbtn">Discuss Project</button></NavLink>
@@ -79,8 +79,9 @@ const Home = () => {
       </div>
       <Process />
       <div className="pricing">
-        <h1>What about <span className="span">pricing</span> ?</h1>
-        <p>You must have heard this a lot but pricing heavily depends on the kind of project we work on. Project we work on is anywhere between <strong>$250 to $5,000</strong>. <br /><br /> We manily consider two factors</p>
+        <h1>What about <span className="span">pricing</span></h1>
+        <p>You must have heard this a lot but pricing heavily depends on the kind of project we work on. Project we work on is anywhere between <strong>$250 to $5,000</strong>. </p>
+        <p className='whymeP'>We manily consider two factors</p>
         <p className='pricingPoint'> 1. How big the project is <br />2. Want both design and development or just one</p>
         <p></p>
       </div>
