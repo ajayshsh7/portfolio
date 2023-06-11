@@ -164,11 +164,13 @@ p{
     margin-bottom: 6rem;
 }
 .pricing h1{
-    padding-bottom: 1rem;
+    padding-bottom: .4rem;
+    margin: 0;
 }
 .pricing p{
     max-width: 50rem;
     margin-bottom: .5rem;
+    /* margin-top: 0; */
 }
 .pricingPoint{
     margin-top: 2.5rem;
@@ -183,11 +185,15 @@ p{
         grid-auto-flow: row;
         padding-bottom: 4rem;
         gap: .2rem;
-        padding-top: .4rem;
+        padding-top: 0;
+        margin-top: 0;
     }
     .content{
         padding-left: 1.4rem;
         padding-right: 1.4rem;
+    }
+    .mainbtn{
+        margin-top: 1.4rem;
     }
     .firstT{
         order: 2;
@@ -225,13 +231,16 @@ p{
         padding-top: 4rem;
     }
     .whymeH{
+        margin: 0;
         padding-bottom: 0;
     }
     .img{
         margin-inline: auto;
+        padding-top: 0;
+        margin-top: 0;
     }
     .heroH{
-        padding-top: 6rem;
+        padding-top: 3rem;
     }
 }
 @media (max-width: 760px)  {
@@ -245,11 +254,11 @@ p{
         font-size: .875rem;
     }
     .img{
-        padding-top: 4rem;
+        padding-top: .4rem;
     }
     .heroH{
         padding: 0;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
     .heroP{
         color: #f6f6f6;
