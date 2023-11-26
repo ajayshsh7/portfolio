@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="social">
         <h2 className='socialH'>Have a talk with <span className="span">me</span></h2>
         <p>Email - ajayshsh7@gmail.com</p>
-        <p>Mobile Number - +91 8960422367</p>
+        <p>Mobile Number - +91 8960******</p>
         <div className="links">
           <svg className='linkedin' viewBox="0 0 448 512">
           <a href="https://linkedin.com/in/ajay-kumarsharma" target='_blank'>
