@@ -14,7 +14,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #024240;
+    color: #1E1E1E;
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -42,7 +42,7 @@ h2{
     transition-duration: 300ms;
 }
 .desc{
-    color: #024240;
+    color: #1E1E1E;
     max-width: 40rem;
     font-size: 1.25rem;
     padding-top: 1.5rem;

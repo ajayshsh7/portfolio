@@ -1,5 +1,5 @@
 .contact{
-    background-color: #024240;
+    background-color: #1E1E1E;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
     border-radius: .4rem;
@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 .mainbtn{
-    color: #024240;
+    color: #1E1E1E;
     margin-top: 4rem;
 }
 input, textarea{
@@ -30,12 +30,12 @@ input, textarea{
 }
 input::placeholder{
     padding-left: .4rem;
-    color: #024240;
+    color: #1E1E1E;
     opacity: 80%;
 }
 textarea::placeholder{
     padding-left: .4rem;
-    color: #024240;
+    color: #1E1E1E;
     opacity: 80%;
 }
 .social{
