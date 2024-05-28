@@ -78,13 +78,13 @@ const Home = () => {
         </div>
       </div>
       <Process />
-      <div className="pricing">
+      {/* <div className="pricing">
         <h1>What about <span className="span">pricing</span></h1>
         <p>You must have heard this a lot but pricing heavily depends on the kind of project we work on. Project we work on is anywhere between <strong>$250 to $5,000</strong>. </p>
         <p className='whymeP'>We manily consider two factors</p>
         <p className='pricingPoint'> 1. How big the project is <br />2. Want both design and development or just one</p>
         <p></p>
-      </div>
+      </div> */}
       <Contact />
       <footer className='footer'>
         <Footer />
